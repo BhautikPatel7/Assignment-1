@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Part */
+.header {
+    background-color: rgb(157, 214, 214);
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+.header_text {
+    color: rgb(6, 37, 6);
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.logo {
+    margin: 15px;
+    width: 220px;
+    height: 50px;
+}
+
+/* Body  */
+.form_tabel {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainheader {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.subheader {
+    margin-top: 20px;
+    text-align: center;
+}
+
+table {
+    text-align: left;
+    padding: 20px;
+    border: 2px solid rgb(58, 54, 54);
+    border-radius: 20px;
+}
+
+
+main>div>h2 {
+    color: rgb(126, 12, 39);
+}
+
+body {
+    background-color: rgb(241, 241, 238);
+}
+
+.space_between_input {
+
+    margin-top: 8px
+}
+
+.btn {
+    padding: 8px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 100px;
+    background-color: rgb(214, 197, 200);
+}
+
+.submit_btn {
+    margin-left: 150PX;
+}
+
+.reset_btn {
+    margin-left: 10px;
+}
+
+/* This is For Setting radio and chekbox value to set in proper position*/
+.female {
+    margin-left: -160px;
+}
+
+.trans {
+    margin-left: -80px;
+}
+
+/* footer Part */
+.futer {
+    margin-top: 10px;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(172, 192, 152);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer>div>h5 {
+    margin-left: 10px;
+    color: rgb(69, 43, 83);
+}
+
+footer>div>h6>a {
+    margin-right: 10px;
+    color: rgb(69, 43, 83);
+
+}
+
+footer>div>h6>a {
+    text-decoration: none;
+    color: black;
+}
+
+footer>div>h6>a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+/* This Css Part For video Section */
+video {
+    margin: 25px;
+    height: 250px;
+    width: 350px;
+}
+
+.vdcontainer {
+    display: flexbox;
+    flex-wrap: 3;
+}
+
+.heading2 {
+    padding: 2px;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(126, 12, 39);
+    ;
+}
+
+.linkofsecond {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.container {
+    margin-top: -20px;
+    background-color: rgb(207, 207, 197);
+    ;
+}
+
+.linkofthird {
+
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}

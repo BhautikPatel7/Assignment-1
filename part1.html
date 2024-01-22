@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- This is Part 1  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="header">
+    <header>
+      <img class="logo" src="assets/logo.png" alt="Plus Infosys Logo">
+      <h4 class="header_text">Coding Tournament</h4>
+
+    </header>
+  </div>
+  <main>
+    <div class="mainheader">
+      <h2>Hackathon for Programmers</h2>
+    </div>
+    <div class="subheader">
+      <p> This Is Simple Registration Form For <abbr title="Plusinfosys">Plusinfosys</abbr> Employees To Participent for
+        <big>Hackathon </big>Challenge.
+      </p>
+    </div>
+    <div>
+    </div>
+    <div class="form_tabel">
+      <table>
+        <form action="">
+          <!-- First Name -->
+          <tr>
+            <td><label for="first_name">First Name:</label></td>
+            <td><input type="text" id="first_name" oninput=" this.value = this.value.replace(/[0-9]/g,'')" required  /> </td>
+          </tr>
+          <!-- Middle Name -->
+          <tr>
+            <td><label for="Middle_name" class="space_between_input">Middle Name:</label> </td>
+            <td><input type="text" id="Middle_name" class="space_between_input"  oninput=" this.value = this.value.replace(/[0-9]/g,'')" required></td>
+          </tr>
+          <!-- Last Name -->
+          <tr>
+            <td><label for="last_name" class="space_between_input">Last Name:</label></td>
+            <td><input type="text" id="last_name" class="space_between_input"  oninput=" this.value = this.value.replace(/[0-9]/g,'')" required></td>
+          </tr>
+          <!-- Gender -->
+          <tr>
+            <td><label for="gender" class="space_between_input">Gender:</label></td>
+            <div>
+              <td><input type="radio" id="male" name="male" value="male" class="space_between_input" checked><label
+                  for="male">Male</label></td>
+              <td><input type="radio" id="female" name="male" value="female" class="space_between_input female" ><label
+                  for="female">Female</label></td>
+              <td><input type="radio" id="transgender" name="male" class="space_between_input trans"
+                  value="transgender"><label for="transgender">Transgender</label></td>
+            </div>
+          </tr>
+          <tr>
+            <td><label for="birth_date">Birth Date:</label></td>
+            <!-- Here I Added Max Date As Todays Date -->
+            <td><input type="date" id="birth" name="birth_date" value="2003-04-02" max="2024-01-17"
+                class="space_between_input"></td>
+          </tr>
+          <!-- ChekBox For Skills -->
+          <tr>
+            <td><label for="skills" class="space_between_input" >Skills:</label></td>
+            <td><input type="checkbox"  name="html" value="html" class="space_between_input "><label
+                for="html" >HTML</label></td>
+            <td><input type="checkbox" name="css" value="css" class="space_between_input female"><label
+                for="css">CSS</label></td>
+            <td><input type="checkbox" name="javascript" value="javascript" class="space_between_input trans"><label
+                for="javascript">JavaScript</label>
+            </td>
+          </tr>
+          <!-- Taking Email As Input In Valid Formate -->
+          <tr>
+            <td>
+              <label for="email" class="space_between_input">Enter Your Email:</label>
+            </td>
+            <td> <input type="email" id="email" pattern="+@example.com" size="30" class="space_between_input"
+                required /></td>
+          </tr>
+          <tr>
+            <!-- Contactact Number -->
+            <td><label for="phone_number" class="space_between_input">Contact Number:</label></td>
+            <td><input type="tel"  class="space_between_input" maxlength="10" onkeypress="return isNumberKey(event)" required></td>
+          </tr>
+          <tr>
+            <!-- User name For Site -->
+            <td><label for="username" class="space_between_input">Username:</label></td>
+            <td><input type="text" required class="space_between_input"></td>
+          </tr>
+          <!-- Select A Blood Group -->
+          <tr>
+            <td><label for="bloodgroup" class="space_between_input">Bloodgroup:</label></td>
+            <td><select name="bloodgroup" id="bloodgrp" class="space_between_input">
+                <option value="A+">A positive</option>
+                <option value="A-">A negative</option>
+                <option value="B+">B positive</option>
+                <option value="B-">B negative</option>
+                <option value="O+">O positive</option>
+                <option value="O-">O negative</option>
+                <option value="AB+">AB positive</option>
+                <option value="AB-">AB negative</option>
+              </select></td>
+          </tr>
+          <!-- This is For Present Adress Adress -->
+          <tr>
+            <td><label for="adress" class="space_between_input">Enter Your Adress:</label></td>
+            <td><textarea name="adress" id="adress" cols="20" rows="2" class="space_between_input"></textarea></td>
+          </tr>
+          <!-- This is For Area Pincode -->
+          <tr>
+            <td><label for="zipcode" class="space_between_input">Enter Your Pincode:</label></td>
+            <td><input type="tel" maxlength="6" class="space_between_input"  onkeypress="return isNumberKey(event)" required> </td>
+          </tr>
+          <!-- This is for Password  -->
+          <tr>
+            <td><label for="password" class="space_between_input">Password:</label></td>
+            <td><input type="password" required minlength="3" class="space_between_input"></td>
+          </tr>
+          <!-- Submit And Reset button -->
+          <tr>
+            <button>
+              <td><input type="submit" class="submit_btn btn" id="checkBtn"></td>
+              <td><input type="reset" class="reset_btn btn"></td>
+            </button>
+          </tr>
+        </form>
+      </table>
+    </div>
+    <div>
+      <h3 class="heading2"><a class="linkofsecond" href="use of video tag.html" target="_blank">Click here For See The
+          use of html 5 video tag</a></h3>
+    </div>
+    <div>
+      <h3 class="heading2"><a class="linkofthird" href="part2.html" target="_blank">Click here For Second Assignment</a></h3>
+    </div>
+    <div>
+      <h3 class="heading2"><a class="linkofthird" href="part3.html" target="_blank">Click here For Third Task</a></h3>
+    </div>
+  </main>
+  <footer>
+    <div class="futer">
+      <h5>&copy;plusinfosys. All rights reserved</h5>
+      <h6><a href="https://www.plusinfosys.com/">Rudram icon, 309 to 312, <br>
+          opp. lamda house, Gota,<br>
+          Ahmedabad, Gujarat 382481</a></h6>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

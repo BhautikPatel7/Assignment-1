@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(22, 81, 159);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+body{
+    background-color: #e2e3da;
+}
+
+main>div>h4 {
+    margin: 20px;
+    text-align: center;
+}
+
+.design1 {
+    margin-top: 20px;
+    text-align: center;
+
+}
+/* Change The Heading Of Design by This one Element Change */
+.design_heading{
+    font-size: 30px;
+    color: #5d6ae3;
+}
+
+main>div>div>h3{
+    font-family: "Montserrat", sans-serif;
+    display: inline;
+    font-size: 40px;
+    color: #cc0000;
+    border: 3px solid #cc0000;
+    padding: 2px 20px 2px 20px;
+    border-radius: 2px;
+    font-weight: 900;
+    box-shadow: 5px 6px 7px #747171;
+}
+/* This Css For Second Design */
+.design2{
+    margin-top: 60px;
+    text-align: center;
+}
+main>div>div>h4 {
+    display: inline;
+    font-size: 40px;
+    border: 4px solid #fa6900;
+    border-radius: 8px;
+    padding: 35px 10px 60px 10px;
+    font-weight: bolder;
+    box-shadow: 5px 8px 7px #5c5b5b;
+    background-color: #f38630;
+    color: rgb(240, 235, 235);
+    font-weight: 100;
+}
+.design_2 {
+    margin-top: 40px;
+}
+/* This Css For Third Design */
+.third_design {
+    margin-top: 90px;
+}
+.design3{
+    width: 66px;
+    text-align: center;
+    background-color:#9de0ad;
+    padding: 19px 2px 8px 3px;
+    display: block;
+    margin: auto;
+    border: 4px solid #008800;
+    border-radius: 200px;
+    box-shadow: 6px 8px 7px #4a4848;
+}
+.svg_center{
+    text-align: center;
+}
